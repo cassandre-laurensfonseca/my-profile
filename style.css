@@ -1,0 +1,105 @@
+
+/*colors and fonts*/
+body {
+	font-family: 'Yaldevi', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	font-weight: 100;
+	text-align: center;
+	text-align: justify-all;
+	background-color: #CEE5D0;
+	color: rgb(30, 30, 30);
+}
+
+h1, h2, {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1 {
+	color: #32502E;
+	font-size: 40px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #406343;
+	font-size: 24px;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #316B83;
+	transition: color 0.3s ease;
+}
+a:hover {
+  color: #6D8299;
+  text-decoration: none;
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: Opx 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.card-white:hover {
+	background-color: #CEE5D0;
+	color: whitesmoke;
+}
+.perfect-circle
+{
+  width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #316B83;
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #6D8299;
+	color: whitesmoke;
+}
+.list-inline {
+	list-style: none;
+	padding: Opx;
+}
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+
+/* Design adjustments*/
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+/*Responsive design*/
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
